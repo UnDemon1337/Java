@@ -1,0 +1,46 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:background="@color/gray">
+
+
+    <ImageView
+            android:id="@+id/quest_details_image"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/car_battery_icon"
+            android:contentDescription="Quest image"/>
+
+    <TextView
+            android:id="@+id/quest_details_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Название квеста"
+            android:textSize="20sp"
+            android:textColor="@color/white"
+            android:layout_marginTop="16dp"
+            android:fontFamily="@font/montseratt_bold"
+            />
+
+    <TextView
+            android:id="@+id/quest_details_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Полное описание квеста"
+            android:textSize="16sp"
+            android:textColor="@color/white"
+            android:layout_marginTop="8dp"
+            android:fontFamily="@font/montseratt"/>
+
+    <Button
+            android:id="@+id/quest_details_back_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Назад"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="@color/yellow"
+            android:fontFamily="@font/montseratt_bold"/>
+</LinearLayout>

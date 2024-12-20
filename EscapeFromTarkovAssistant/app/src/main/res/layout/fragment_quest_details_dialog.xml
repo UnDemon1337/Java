@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:background="@color/dark_gray"
+        android:minWidth="400dp">
+
+    <ImageView
+            android:id="@+id/quest_image"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/car_battery_icon"
+            android:scaleType="centerCrop" />
+
+    <TextView
+            android:id="@+id/quest_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Quest Name"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginTop="8dp"
+            android:fontFamily="@font/montseratt_bold"
+            android:textColor="@color/white"
+            />
+
+    <TextView
+            android:id="@+id/quest_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTEST"
+            android:textSize="14sp"
+            android:layout_marginTop="8dp"
+            android:fontFamily="@font/montseratt"
+            android:textColor="@color/white"/>
+
+    <Button
+            android:id="@+id/close_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Закрыть"
+            android:layout_marginTop="16dp"
+            android:fontFamily="@font/montseratt_bold"
+            android:backgroundTint="@color/yellow"/>
+
+</LinearLayout>

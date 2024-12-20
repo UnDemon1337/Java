@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">EscapeFromTarkovAssistant</string>
+    <string name="tab_questmap">Квесты</string>
+    <string name="tab_questmap_desc">Вкладка Карта</string>
+    <string name="tab_items">Предметы</string>
+    <string name="tab_items_desc">Вкладка Предметы</string>
+    <string name="tab_timers">Таймеры</string>
+    <string name="tab_timers_desc">Вкладка Таймеры</string>
+    <string name="active_timers">Активные таймеры</string>
+    <string name="add_timer">Добавить</string>
+
+    <string-array name="traders">
+        <item>Все</item>
+        <item>Прапор</item>
+        <item>Терапевт</item>
+        <item>Механик</item>
+        <item>Лыжник</item>
+        <item>Егерь</item>
+    </string-array>
+
+</resources>

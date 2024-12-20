@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/gray"
+        android:padding="12dp"
+        android:elevation="4dp"
+        android:layout_marginBottom="8dp"
+        android:clickable="false">
+
+        <!-- Уровень квеста -->
+        <TextView
+                android:id="@+id/quest_level"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="lvl 5"
+                android:textColor="@android:color/white"
+                android:textSize="14sp"
+                android:fontFamily="@font/montseratt_bold"
+                android:layout_gravity="end"/>
+
+        <!-- Название квеста -->
+        <TextView
+                android:id="@+id/quest_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Название квеста"
+                android:textColor="@android:color/white"
+                android:textSize="18sp"
+                android:fontFamily="@font/montseratt_bold"
+                android:layout_gravity="center_horizontal" />
+
+        <!-- Краткое описание -->
+        <TextView
+                android:id="@+id/quest_short_description"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Краткое описание"
+                android:textColor="@android:color/white"
+                android:textSize="14sp"
+                android:fontFamily="@font/montseratt"
+                android:paddingBottom="8dp"
+                android:layout_margin="5dp"/>
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                        android:id="@+id/quest_complete_button"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Выполнено"
+                        android:backgroundTint="@color/yellow"
+                        android:textColor="@android:color/white"
+                        android:fontFamily="@font/montseratt_bold" />
+
+                <TextView
+                        android:id="@+id/quest_details_link"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Подробнее"
+                        android:textColor="@color/white"
+                        android:textSize="14sp"
+                        android:fontFamily="@font/montseratt_bold"
+                        android:layout_marginStart="70dp"/>
+
+        </LinearLayout>
+</LinearLayout>

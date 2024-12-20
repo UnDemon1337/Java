@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:id="@+id/main"
+    android:orientation="vertical">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:id="@+id/appBarLayout">
+
+        <com.google.android.material.tabs.TabLayout
+            android:id="@+id/tabLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:tabTextColor="@color/yellow"
+            app:tabSelectedTextColor="@color/white"
+            app:tabIndicatorColor="@color/yellow"
+            android:background="@color/dark_gray"
+            app:tabTextAppearance="@style/CustomTabTextAppearance">
+
+            <com.google.android.material.tabs.TabItem
+                android:id="@+id/tab_timers"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tab_timers"
+                android:contentDescription="@string/tab_timers_desc"/>
+
+            <com.google.android.material.tabs.TabItem
+                android:id="@+id/tab_quests"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tab_items"
+                android:contentDescription="@string/tab_items_desc" />
+
+            <com.google.android.material.tabs.TabItem
+                android:id="@+id/tab_map"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tab_questmap"
+                android:contentDescription="@string/tab_questmap_desc" />
+        </com.google.android.material.tabs.TabLayout>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+
+    <androidx.viewpager2.widget.ViewPager2
+        android:id="@+id/viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="90dp"/>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
